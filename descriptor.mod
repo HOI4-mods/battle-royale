@@ -5,4 +5,5 @@ tags={
 	"Alternative History"
 }
 name="Battle Royale"
-supported_version="1.14.5"
+supported_version="1.14.*"
+remote_file_id="3243659309"
