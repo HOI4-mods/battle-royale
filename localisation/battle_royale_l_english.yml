@@ -1,0 +1,14 @@
+﻿l_english:
+  RULE_BATTLE_ROYAL_START_DATE: "Battle Royale Start Date"
+  RULE_GROUP_BATTLE_ROYAL_START_DATE: "Battle Royale Start Date"
+  # options
+  RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE: "Immediately in the first month"
+  RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE_TEXT: "Immediately in the first month"
+  RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE_DESC: "Each country will receive a war goal in the first month of the game"
+  RULE_BATTLE_ROYALE_START_DATE_1939: "1939"
+  RULE_BATTLE_ROYALE_START_DATE_1939_TEXT: "Will start after 1939"
+  RULE_BATTLE_ROYALE_START_DATE_1939_DESC: "Each country will receive a war goal after 1939"
+  RULE_BATTLE_ROYALE_START_DATE_1944: "Will start after 1944"
+  RULE_BATTLE_ROYALE_START_DATE_1944_TEXT: "Will start after 1944"
+  RULE_BATTLE_ROYALE_START_DATE_1944_DESC: "Each country will receive a war goal after 1944"
+

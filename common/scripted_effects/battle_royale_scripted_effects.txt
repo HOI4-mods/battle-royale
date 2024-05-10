@@ -1,0 +1,20 @@
+battle_royale_get_wargoal_on_neighbor_country = {
+	every_country = {
+		limit = {
+			ROOT = {
+				has_war = no
+			}
+		}
+		
+		ROOT = {
+			every_neighbor_country = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+		}
+	}
+}

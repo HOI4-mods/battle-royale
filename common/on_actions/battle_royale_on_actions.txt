@@ -1,0 +1,38 @@
+on_actions = {
+    on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = battle_royale_start_date
+						option = RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE
+					}
+					date > 1936.01.01
+				}
+
+				battle_royale_get_wargoal_on_neighbor_country = yes
+			} else_if = {
+				limit = { 
+					has_game_rule = {
+						rule = battle_royale_start_date
+						option = RULE_BATTLE_ROYALE_START_DATE_1939
+					}
+					date > 1939.01.01
+				}
+
+				battle_royale_get_wargoal_on_neighbor_country = yes
+			}
+			else_if = {
+				limit = { 
+					has_game_rule = {
+						rule = battle_royale_start_date
+						option = RULE_BATTLE_ROYALE_START_DATE_1944
+					}
+					date > 1944.01.01
+				}
+
+				battle_royale_get_wargoal_on_neighbor_country = yes
+			}
+		}	
+	}
+}

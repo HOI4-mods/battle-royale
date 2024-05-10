@@ -1,0 +1,20 @@
+battle_royale_start_date = {
+    name = "RULE_BATTLE_ROYAL_START_DATE"
+    group = "RULE_GROUP_BATTLE_ROYAL_START_DATE"
+    icon = "GFX_wargoals"
+    default = {
+        name = RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE
+        text = "RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE_TEXT"
+        desc = "RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE_DESC"
+    }
+    option = {
+        name = RULE_BATTLE_ROYALE_START_DATE_1939
+        text = "RULE_BATTLE_ROYALE_START_DATE_1939_TEXT"
+        desc = "RULE_BATTLE_ROYALE_START_DATE_1939_DESC"
+    }
+	option = {
+        name = RULE_BATTLE_ROYALE_START_DATE_1944
+        text = "RULE_BATTLE_ROYALE_START_DATE_1944_TEXT"
+        desc = "RULE_BATTLE_ROYALE_START_DATE_1944_DESC"
+    }
+}
