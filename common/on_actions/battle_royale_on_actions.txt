@@ -3,32 +3,39 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = battle_royale_start_date
-						option = RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE
+					OR = {
+						AND = {
+							has_game_rule = {
+								rule = battle_royale_start_date
+								option = RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE
+							}
+							date > 1936.01.01
+						}
+						AND = {
+							has_game_rule = {
+								rule = battle_royale_start_date
+								option = RULE_BATTLE_ROYALE_START_DATE_1939
+							}
+							date > 1939.01.01
+						}
+						AND = {
+							has_game_rule = {
+								rule = battle_royale_start_date
+								option = RULE_BATTLE_ROYALE_START_DATE_1944
+							}
+							date > 1944.01.01
+						}
 					}
-					date > 1936.01.01
 				}
 
-				battle_royale_get_wargoal_on_neighbor_country = yes
-			} else_if = {
-				limit = { 
-					has_game_rule = {
-						rule = battle_royale_start_date
-						option = RULE_BATTLE_ROYALE_START_DATE_1939
+				if = {
+					limit = { 
+						ROOT = {is_faction_leader = yes}
 					}
-					date > 1939.01.01
-				}
 
-				battle_royale_get_wargoal_on_neighbor_country = yes
-			}
-			else_if = {
-				limit = { 
-					has_game_rule = {
-						rule = battle_royale_start_date
-						option = RULE_BATTLE_ROYALE_START_DATE_1944
+					ROOT = {
+						dismantle_faction = yes
 					}
-					date > 1944.01.01
 				}
 
 				battle_royale_get_wargoal_on_neighbor_country = yes
