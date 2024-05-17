@@ -18,3 +18,19 @@ battle_royale_get_wargoal_on_neighbor_country = {
 		}
 	}
 }
+
+battle_royale_add_idea_to_every_country = {
+	every_country = {
+		limit = {
+			ROOT = {
+				NOT = {
+					has_idea = Battle_Royale_default_idea
+				}
+			}
+		}
+		
+		ROOT = {
+			add_ideas = Battle_Royale_default_idea
+		}
+	}
+}
