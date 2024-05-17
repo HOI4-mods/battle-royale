@@ -55,9 +55,10 @@ on_actions = {
 			if = {
 				limit = {
 					has_global_flag = battle_royale_begins
-					ROOT = {
-						is_ai = yes
-					}
+					# Incorrect logic. ROOT country can be either the player or the computer
+					# ROOT = {
+					# 	is_ai = yes
+					# }
 				}
 
 				FROM = {
@@ -65,6 +66,10 @@ on_actions = {
 						limit = {
 							NOT = {
 								is_core_of = owner # owner - is winner
+							}
+							# only AI could core states. for player it would be too OP. Use my State intefration mod for coring instead
+							owner = {
+								is_ai = yes
 							}
 						}
 
