@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		Battle_Royale_default_idea = {
+			picture = generic_volunteer_expedition_bonus
+
+
+			rule = {
+				can_create_factions = yes
+				can_puppet = no
+				can_force_government = no
+			}
+		}
+	}
+}
