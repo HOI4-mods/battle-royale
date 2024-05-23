@@ -19,7 +19,7 @@ battle_royale_get_wargoal_on_neighbor_country = {
 	}
 }
 
-battle_royale_add_idea_to_every_country = {
+battle_royale_add_default_idea_to_every_country = {
 	every_country = {
 		limit = {
 			ROOT = {
@@ -31,6 +31,22 @@ battle_royale_add_idea_to_every_country = {
 		
 		ROOT = {
 			add_ideas = Battle_Royale_default_idea
+		}
+	}
+}
+
+battle_royale_add_without_faction_idea_to_every_country = {
+	every_country = {
+		limit = {
+			ROOT = {
+				NOT = {
+					has_idea = Battle_Royale_without_faction_idea
+				}
+			}
+		}
+		
+		ROOT = {
+			add_ideas = Battle_Royale_without_faction_idea
 		}
 	}
 }

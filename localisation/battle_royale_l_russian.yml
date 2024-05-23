@@ -1,7 +1,9 @@
 ﻿l_russian:
   Battle_Royale_default_idea: "Да начнется же Королевская битва"
+  Battle_Royale_without_faction_idea: "Да начнется же Королевская битва"
+  # option START_DATE
   RULE_BATTLE_ROYAL_START_DATE: "Battle Royale Дата старта"
-  RULE_GROUP_BATTLE_ROYAL_START_DATE: "Battle Royale Дата старта"
+  RULE_GROUP_BATTLE_ROYAL: "Настройки Battle Royal"
   # options
   RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE: "Сразу же в первый месяц"
   RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE_TEXT: "Сразу же в первый месяц"
@@ -12,4 +14,15 @@
   RULE_BATTLE_ROYALE_START_DATE_1944: "Начнется после 1944"
   RULE_BATTLE_ROYALE_START_DATE_1944_TEXT: "Начнется после 1944"
   RULE_BATTLE_ROYALE_START_DATE_1944_DESC: "Каждая страна получит цель войны в после 1944"
+  # option DEFAULT_IDEA
+  RULE_BATTLE_ROYAL_DEFAULT_IDEA: "Могут ли создавать фракции"
+  # options
+  RULE_BATTLE_ROYALE_START_DEFAULT_IDEA: "Да"
+  RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_TEXT: "Да"
+  RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_DESC: "После начала королевской битвы любая страна может создать фракцию"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA: "Нет"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_TEXT: "Нет"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_DESC: "После начала королевской битвы никакая страна не может создать фракцию"
+
+
 

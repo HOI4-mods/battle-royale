@@ -1,6 +1,6 @@
 battle_royale_start_date = {
     name = "RULE_BATTLE_ROYAL_START_DATE"
-    group = "RULE_GROUP_BATTLE_ROYAL_START_DATE"
+    group = "RULE_GROUP_BATTLE_ROYAL"
     icon = "GFX_wargoals"
     default = {
         name = RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE
@@ -16,5 +16,21 @@ battle_royale_start_date = {
         name = RULE_BATTLE_ROYALE_START_DATE_1944
         text = "RULE_BATTLE_ROYALE_START_DATE_1944_TEXT"
         desc = "RULE_BATTLE_ROYALE_START_DATE_1944_DESC"
+    }
+}
+
+battle_royale_default_idea = {
+    name = "RULE_BATTLE_ROYAL_DEFAULT_IDEA"
+    group = "RULE_GROUP_BATTLE_ROYAL"
+    icon = "GFX_wargoals"
+    default = {
+        name = RULE_BATTLE_ROYALE_START_DEFAULT_IDEA
+        text = "RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_TEXT"
+        desc = "RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_DESC"
+    }
+    option = {
+        name = RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA
+        text = "RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_TEXT"
+        desc = "RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_DESC"
     }
 }

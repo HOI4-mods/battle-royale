@@ -1,7 +1,8 @@
 ﻿l_english:
   Battle_Royale_default_idea: "Let the Battle Royale begin"
+  Battle_Royale_without_faction_idea: "Let the Battle Royale begin"
   RULE_BATTLE_ROYAL_START_DATE: "Battle Royale Start Date"
-  RULE_GROUP_BATTLE_ROYAL_START_DATE: "Battle Royale Start Date"
+  RULE_GROUP_BATTLE_ROYAL: "Battle Royale Settings"
   # options
   RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE: "Immediately in the first month"
   RULE_BATTLE_ROYALE_START_DATE_IMMEDIATE_TEXT: "Immediately in the first month"
@@ -12,4 +13,13 @@
   RULE_BATTLE_ROYALE_START_DATE_1944: "Will start after 1944"
   RULE_BATTLE_ROYALE_START_DATE_1944_TEXT: "Will start after 1944"
   RULE_BATTLE_ROYALE_START_DATE_1944_DESC: "Each country will receive a war goal after 1944"
+  # option DEFAULT_IDEA
+  RULE_BATTLE_ROYAL_DEFAULT_IDEA: "Can create factions"
+  # options
+  RULE_BATTLE_ROYALE_START_DEFAULT_IDEA: "Yes"
+  RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_TEXT: "Yes"
+  RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_DESC: "After the Battle Royale starts, any country can create a faction"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA: "No"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_TEXT: "No"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_DESC: "After the Battle Royale starts, no country can create a faction"
 
