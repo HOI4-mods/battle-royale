@@ -28,6 +28,7 @@ on_actions = {
 					}
 				}
 
+				# DISMANTLE FACTION
 				if = {
 					limit = { 
 						ROOT = {
@@ -41,9 +42,24 @@ on_actions = {
 					}
 				}
 
-				battle_royale_get_wargoal_on_neighbor_country = yes
-				battle_royale_add_idea_to_every_country = yes
+				# IDEAS
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = battle_royale_default_idea
+							option = RULE_BATTLE_ROYALE_START_DEFAULT_IDEA
+						}
+					}
 
+					battle_royale_add_default_idea_to_every_country = yes
+				}
+				else = {
+					battle_royale_add_without_faction_idea_to_every_country = yes
+				}
+
+				# WARGOAL
+				battle_royale_get_wargoal_on_neighbor_country = yes
+				
 				set_global_flag = battle_royale_begins
 			}
 		}	
