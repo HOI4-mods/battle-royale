@@ -6,8 +6,8 @@ peace_ai_desires = {
         }
         ai_desire = -120
     }
-
-	democracy_want_your_states = {
+    
+    democracy_want_your_states = {
         peace_action_type = take_states
         enable = {
             ROOT = { has_government = democratic }
