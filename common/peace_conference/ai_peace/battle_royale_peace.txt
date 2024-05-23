@@ -1,0 +1,17 @@
+peace_ai_desires = {
+    democracy_dont_want_puppet = {
+        peace_action_type = { puppet liberate force_government }
+        enable = {
+            ROOT = { has_government = democratic }
+        }
+        ai_desire = -120
+    }
+    
+    democracy_want_your_states = {
+        peace_action_type = take_states
+        enable = {
+            ROOT = { has_government = democratic }
+        }
+        ai_desire = 500
+    }
+}
