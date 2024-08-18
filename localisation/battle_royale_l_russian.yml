@@ -11,6 +11,9 @@
   RULE_BATTLE_ROYALE_START_DATE_1939: "1939"
   RULE_BATTLE_ROYALE_START_DATE_1939_TEXT: "Начнется после 1939"
   RULE_BATTLE_ROYALE_START_DATE_1939_DESC: "Каждая страна получит цель войны в после 1939"
+  RULE_BATTLE_ROYALE_START_DATE_1939: "1942"
+  RULE_BATTLE_ROYALE_START_DATE_1939_TEXT: "Начнется после 1942"
+  RULE_BATTLE_ROYALE_START_DATE_1939_DESC: "Каждая страна получит цель войны в после 1942"
   RULE_BATTLE_ROYALE_START_DATE_1944: "Начнется после 1944"
   RULE_BATTLE_ROYALE_START_DATE_1944_TEXT: "Начнется после 1944"
   RULE_BATTLE_ROYALE_START_DATE_1944_DESC: "Каждая страна получит цель войны в после 1944"
@@ -22,7 +25,7 @@
   RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_DESC: "После начала королевской битвы любая страна может создать фракцию"
   RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA: "Нет"
   RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_TEXT: "Нет"
-  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_DESC: "После начала королевской битвы никакая страна не может создать фракцию"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_DESC: "После начала королевской битвы не может создать фракцию"
 
 
 

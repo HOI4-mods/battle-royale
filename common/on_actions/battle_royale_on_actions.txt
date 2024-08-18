@@ -21,6 +21,13 @@ on_actions = {
 						AND = {
 							has_game_rule = {
 								rule = battle_royale_start_date
+								option = RULE_BATTLE_ROYALE_START_DATE_1942
+							}
+							date > 1942.01.01
+						}
+						AND = {
+							has_game_rule = {
+								rule = battle_royale_start_date
 								option = RULE_BATTLE_ROYALE_START_DATE_1944
 							}
 							date > 1944.01.01
