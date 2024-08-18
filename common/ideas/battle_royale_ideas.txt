@@ -8,6 +8,10 @@ ideas = {
 				can_puppet = no
 				can_force_government = no
 			}
+
+			modifier = {
+				ai_focus_aggressive_factor = 0.5
+			}
 		}
 
 		Battle_Royale_without_faction_idea = {
@@ -18,6 +22,10 @@ ideas = {
 				can_join_factions = no
 				can_puppet = no
 				can_force_government = no
+			}
+
+			modifier = {
+				ai_focus_aggressive_factor = 0.5
 			}
 		}
 	}
