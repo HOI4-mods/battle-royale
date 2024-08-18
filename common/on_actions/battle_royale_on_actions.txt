@@ -28,20 +28,6 @@ on_actions = {
 					}
 				}
 
-				# DISMANTLE FACTION
-				if = {
-					limit = { 
-						ROOT = {
-							is_faction_leader = yes
-							has_war = no
-						}
-					}
-
-					ROOT = {
-						dismantle_faction = yes
-					}
-				}
-
 				# IDEAS
 				if = {
 					limit = {
@@ -55,6 +41,22 @@ on_actions = {
 				}
 				else = {
 					battle_royale_add_without_faction_idea_to_every_country = yes
+
+					# DISMANTLE FACTION
+					if = {
+						limit = { 
+							ROOT = {
+								is_in_faction = yes
+								is_major = yes
+								is_faction_leader = no
+								is_puppet = no
+							}
+						}
+
+						ROOT = {
+							leave_faction = yes
+						}
+					}
 				}
 
 				# WARGOAL
