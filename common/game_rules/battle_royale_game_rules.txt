@@ -12,6 +12,11 @@ battle_royale_start_date = {
         text = "RULE_BATTLE_ROYALE_START_DATE_1939_TEXT"
         desc = "RULE_BATTLE_ROYALE_START_DATE_1939_DESC"
     }
+    option = {
+        name = RULE_BATTLE_ROYALE_START_DATE_1942
+        text = "RULE_BATTLE_ROYALE_START_DATE_1942_TEXT"
+        desc = "RULE_BATTLE_ROYALE_START_DATE_1942_DESC"
+    }
 	option = {
         name = RULE_BATTLE_ROYALE_START_DATE_1944
         text = "RULE_BATTLE_ROYALE_START_DATE_1944_TEXT"
