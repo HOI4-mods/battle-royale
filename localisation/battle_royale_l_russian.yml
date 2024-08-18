@@ -25,7 +25,7 @@
   RULE_BATTLE_ROYALE_START_DEFAULT_IDEA_DESC: "После начала королевской битвы любая страна может создать фракцию"
   RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA: "Нет"
   RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_TEXT: "Нет"
-  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_DESC: "После начала королевской битвы не может создать фракцию"
+  RULE_BATTLE_ROYALE_START_WITHOUT_FACTION_IDEA_DESC: "После начала королевской битвы никакая страна не может создать фракцию"
 
 
 
